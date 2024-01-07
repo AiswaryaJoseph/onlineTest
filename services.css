@@ -1,0 +1,169 @@
+body {
+    font-family: 'IBM Plex Sans', sans-serif;
+    /* font-family:  */
+    overflow-x: hidden;
+    background-color: rgb(50, 42, 42);
+    background-image: url('https://wallpapercave.com/wp/8l83IuI.jpg');
+  
+  }
+  p{
+    font-family: 'IBM Plex Sans', sans-serif;
+    text-align: justify;
+  }
+  
+  /* nav bar */
+  header {
+    height: 80px;
+    display: flex;
+    /* border:2px solid red; */
+    position: sticky;
+    top: 0px;
+  }
+  
+  nav {
+    /* margin-left: 80px; */
+    padding-top: 27px;
+  }
+  
+  #logo1 {
+    margin-left: 100px;
+    /* position:sticky;
+    top:0px; */
+  }
+  nav a {
+    color: white;
+    /* border: 2px solid red; */
+    text-decoration: none;
+    padding: 30px;
+  }
+  header a {
+    color: white;
+    /* border: 2px solid red; */
+    text-decoration: none;
+    padding: 30px;
+  }
+  .fa-magnifying-glass {
+    font-size: 20px;
+    margin-left: 300px;
+  }
+  
+  /* section 1 */
+  .sect1 {
+    width: 1000px;
+    height: 300px;
+    /* border: 2px solid white; */
+    margin: auto;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+  }
+  .para1 {
+    width: 500px;
+    line-height: 30px;
+  }
+  .sect1 .img1 {
+    border-radius: 50%;
+    /* border: 2px solid red; */
+    width: 330px;
+    height: 360px;
+  }
+  .contact {
+    margin-top: 30px;
+  }
+  .fa-phone {
+    font-size: 30px;
+  }
+  .bold {
+    margin-left: 30px;
+  }
+  /* section2 */
+  .one-side{
+    height: 150px;
+  }
+  /* section 4 */
+.backimgSection {
+    margin-top: 40px;
+    padding-top: 10px;
+    /* border: 2px solid red; */
+    width: 1000px;
+    height: 280px;
+    margin: auto;
+    border-radius: 20px;
+  }
+  .block1{
+    background-image: url('https://wallpapers.com/images/hd/green-nature-grass-close-up-16ecophsy69z3e9h.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .block2{
+background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXb1s5BUkzsBfa8XBarLpc43Ii4bBJBMXhiIls8RMPHpPDciKLx-ZUNsNh8OCkykXMXnQ&usqp=CAU');
+background-repeat: no-repeat;
+background-size: cover;
+  }
+  .block3{
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTotdIZEGHyIKhWYL-MkXc1oqCxkUz0DdMO8g&usqp=CAU');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+      }
+  .backimgSection h2{
+    text-align: center;
+  }
+  .text-1 {
+   color:white;
+   padding:0 20px;
+  }
+  /* section 4 */
+.sectn4 {
+    margin-top: 50px;
+    width: 1000px;
+    margin: auto;
+    color: white;
+    text-align: center;
+    background-color: rgba(132, 128, 128, 0.6);
+    border-radius: 20px;
+    padding-bottom: 20px;
+    /* opacity: 0.3; */
+  }
+  .text {
+    width: 500px;
+    margin: auto;
+    margin-top: 20px;
+  }
+  /* footer */
+  .footer {
+    color: white;
+    font-size: small;
+    height: 150px;
+    width: 1000px;
+    height: 300px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+  }
+  .footer1 {
+    width: 500px;
+    line-height: 20px;
+    /* border: 2px solid green; */
+  }
+  .footer2 {
+    width: 150px;
+  
+    /* border: 2px solid red; */
+  }
+  .footer2 ul li {
+    list-style: none;
+    line-height: 25px;
+  }
+  
+  .footer3 {
+    width: 150px;
+    /* border: 2px solid red; */
+    color: white;
+  }
+  .fa {
+    padding: 10px;
+  }
+  

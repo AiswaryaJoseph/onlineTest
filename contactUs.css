@@ -1,0 +1,225 @@
+body {
+  font-family: "IBM Plex Sans", sans-serif;
+  /* font-family:  */
+  overflow-x: hidden;
+  background-color: rgb(50, 42, 42);
+  background-image: url("https://wallpapercave.com/wp/8l83IuI.jpg");
+}
+p {
+  font-family: "IBM Plex Sans", sans-serif;
+  text-align: justify;
+}
+
+/* nav bar */
+header {
+  height: 80px;
+  display: flex;
+  /* border:2px solid red; */
+  position: sticky;
+  top: 0px;
+}
+
+nav {
+  /* margin-left: 80px; */
+  padding-top: 27px;
+}
+
+#logo1 {
+  margin-left: 100px;
+  /* position:sticky;
+    top:0px; */
+}
+nav a {
+  color: white;
+  /* border: 2px solid red; */
+  text-decoration: none;
+  padding: 30px;
+}
+header a {
+  color: white;
+  /* border: 2px solid red; */
+  text-decoration: none;
+  padding: 30px;
+}
+.fa-magnifying-glass {
+  font-size: 20px;
+  margin-left: 300px;
+}
+
+/* section 1 */
+.sect1 {
+  width: 1000px;
+  height: 300px;
+  /* border: 2px solid white; */
+  margin: auto;
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+.para1 {
+  width: 500px;
+  line-height: 30px;
+}
+.sect1 .img1 {
+  border-radius: 50%;
+  /* border: 2px solid red; */
+  width: 330px;
+  height: 360px;
+}
+.contact {
+  margin-top: 30px;
+}
+.fa-phone {
+  font-size: 30px;
+}
+.bold {
+  margin-left: 30px;
+}
+/* form */
+.Form-text {
+  margin-top: 80px;
+}
+.Form-text h2 {
+  text-align: center;
+  color: white;
+}
+.Form-text p {
+  text-align: center;
+  color: white;
+}
+form {
+  width: 800px;
+  /* border: 2px solid white; */
+  margin: auto;
+  padding: 12px;
+  margin-top: 50px;
+  background-color: rgba(51, 51, 54, 0.7);
+}
+.form-division {
+  display: flex;
+  justify-content: space-evenly;
+}
+label {
+  color: white;
+  font-size: 12px;
+  padding: 12px;
+}
+input {
+  width: 340px;
+  height: 30px;
+  border-radius: 40px;
+  padding: 10px;
+  margin-top: 12px;
+  margin-left: 20px;
+  background-color: rgb(59, 57, 57);
+  border: none;
+}
+textarea {
+  margin-left: 30px;
+  border-radius: 20px;
+  padding: 15px;
+  background-color: rgb(59, 57, 57);
+  border: none;
+  /* width: 420px; */
+}
+/* button */
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  padding-bottom: 30px;
+}
+.button1 {
+  width: 150px;
+  height: 40px;
+  background-color: orange;
+  color: white;
+  border-radius: 10px;
+  margin: auto;
+}
+/* contact us section */
+.contact-text {
+  width: 900px;
+  /* border: 2px solid white; */
+  margin: auto;
+  height: 450px;
+}
+.contact-text .heading {
+  text-align: center;
+}
+
+.contact-text h2 {
+  text-align: left;
+  color: white;
+}
+.contact-text p {
+  text-align: center;
+  color: white;
+}
+.address {
+  display: flex;
+  justify-content: space-evenly;
+}
+.india p,
+.oman p {
+  text-align: left;
+  text-transform: uppercase;
+  line-height: 20px;
+  font-size: 12px;
+}
+.vLine {
+  border-left: 1px solid grey;
+  height: 300px;
+  left: 53%;
+  position: absolute;
+}
+.fa-ph {
+  font-size: 10px;
+}
+.googleMaps {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+iframe {
+  width: 1000px;
+  height: 450px;
+}
+/* footer */
+.footer {
+  color: white;
+  font-size: small;
+  height: 150px;
+  width: 1000px;
+  height: 300px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 80px;
+}
+.footer1 {
+  width: 500px;
+  line-height: 20px;
+  /* border: 2px solid green; */
+}
+.footer2 {
+  width: 150px;
+
+  /* border: 2px solid red; */
+}
+.footer2 ul li {
+  list-style: none;
+  line-height: 25px;
+}
+
+.footer3 {
+  width: 150px;
+  /* border: 2px solid red; */
+  color: white;
+}
+.fa {
+  padding: 10px;
+}
+
